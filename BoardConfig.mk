@@ -63,6 +63,10 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+#Language Config
+TW_EXTRA_LANGUAGES := true
+TW_DEFAULT_LANGUAGE := zh_CN
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lcsh/QK1503_M02/sepolicy
