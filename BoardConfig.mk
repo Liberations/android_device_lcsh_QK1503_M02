@@ -40,6 +40,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 27487790694.4 #25.6G
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 #recovery
+TW_THEME := portrait_hdpi
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
@@ -57,6 +58,10 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
 TW_NO_EXFAT_FUSE := true
 TW_NO_EXFAT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone1/temp
+
+
+# Fonts
+EXTENDED_FONT_FOOTPRINT := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
