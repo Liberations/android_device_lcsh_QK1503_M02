@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_QK1503_M02.mk
+    $(LOCAL_DIR)/full_QK1503_M02.mk
