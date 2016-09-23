@@ -1,4 +1,4 @@
-# mt6795 platform boardconfig
+# mt6797 platform boardconfig
 LOCAL_PATH := device/lcsh/QK1503_M02
 -include vendor/lcsh/QK1503_M02/BoardConfigVendor.mk
 
