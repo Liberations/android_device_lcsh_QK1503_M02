@@ -71,6 +71,8 @@ TW_DEFAULT_LANGUAGE := zh_CN
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += device/lcsh/QK1503_M02/sepolicy
 
+#my add test
+
 
 
 
